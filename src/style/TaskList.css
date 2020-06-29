@@ -1,0 +1,48 @@
+.list {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.task {
+    background-color: rgb(226, 226, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+    border-radius: 5px;
+    /* height: 50px; */
+    padding: 10px 20px;
+    color: rgb(48, 62, 67);
+    /* line-height: 50px; */
+    position: relative
+}
+
+.task button{
+    background-color: transparent;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.trash {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.task input {
+    background-color: transparent;
+    color: rgb(48, 62, 67);
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    width: 400px;
+    /* min-width: 50%; */
+    height: 40px;
+    padding-left: 10px;
+}
+
+.task input:focus {
+    outline: none;
+}
