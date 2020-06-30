@@ -8,11 +8,14 @@ const TaskList = () => {
 
     return (
         <div>
+            {tasks.length ?
             <ul className="list">
                 {tasks && tasks.map(task => (
                     <Task task={task} key={task.id} />
                 ))}
             </ul>
+            : (<h3 className="no-tasks">No Tasks</h3>)
+            }
         </div>
     )
 }

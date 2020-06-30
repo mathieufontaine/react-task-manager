@@ -18,6 +18,18 @@
     position: relative
 }
 
+.task .title {
+    background-color: transparent;
+    color: rgb(48, 62, 67);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    max-width: 300px;
+    /* min-width: 50%; */
+    min-height: 20px;
+    padding-left: 10px;
+}
+
 .task button{
     background-color: transparent;
     margin: 0 auto;
@@ -31,18 +43,13 @@
     font-size: 20px;
 }
 
-.task input {
-    background-color: transparent;
-    color: rgb(48, 62, 67);
-    font-size: 15px;
-    font-weight: bolder;
-    border: none;
-    width: 400px;
-    /* min-width: 50%; */
-    height: 40px;
-    padding-left: 10px;
-}
 
-.task input:focus {
-    outline: none;
+
+
+.no-tasks {
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    opacity: 80%;
+    font-style: italic;
 }
